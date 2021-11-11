@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+
+width: 100%;
+background-image: url("my back.jpg");
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 109vh;
+}
+
+.navbar{
+
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px
+}
+
+/* .logo{
+    color: white;
+    font-family:'Times New Roman';
+    font-style: italic;
+    font-size: 45px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+} */
+.menu{
+
+    width: 1000px;
+    float: left;
+    height: 100px;
+    margin-left: 300px;
+    margin: right 100px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+ul li{
+
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px; 
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out; 
+    /* margin-left: 100px; */
+}
